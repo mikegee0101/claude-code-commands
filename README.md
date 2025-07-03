@@ -4,7 +4,7 @@ A collection of useful slash commands for Claude Code to streamline common devel
 
 ## Available Commands
 
-### git-commit.md
+### commit.md
 Automates git commits with intelligent staging and message generation. Checks current status, stages changes, and creates descriptive commit messages.
 
 **Tools:** `git`, `cat`
@@ -14,7 +14,7 @@ Automates git commits with intelligent staging and message generation. Checks cu
 To use these commands in Claude Code, simply reference them by filename:
 
 ```
-/git-commit
+/commit
 ```
 
 ## Adding New Commands
