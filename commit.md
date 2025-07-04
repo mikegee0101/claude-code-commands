@@ -17,10 +17,7 @@ Now I'll add the changes and create a commit with a descriptive message:
 
 ```bash
 git add .
-git commit -m "$(cat <<'EOF'
-[Generated commit message based on changes]
-EOF
-)"
+git commit -m "[Generated commit message based on changes]"
 ```
 
 Finally, I'll verify the commit was successful:
